@@ -16,7 +16,6 @@ end
 
 class HelloController < ActionController::Base
   def index
-    @time = Time.now
   end
 end
 
